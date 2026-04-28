@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-harvest-cream text-harvest-bark;
+    font-size: 16px;
+    line-height: 1.7;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-body), Georgia, serif;
+    @apply antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display), Georgia, serif;
+    @apply text-harvest-bark;
+  }
+  nav,
+  button {
+    font-family: var(--font-ui), system-ui, sans-serif;
+  }
+  a {
+    @apply transition-colors;
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply max-w-container mx-auto px-4;
+  }
+  .section-pad {
+    @apply py-16 md:py-24;
+  }
+}
