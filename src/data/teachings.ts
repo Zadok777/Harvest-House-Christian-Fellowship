@@ -80,4 +80,15 @@ export const teachings: Teaching[] = [
     type: 'video',
     thumbnail: '/images/teachings/the-kingdom-of-god-and-its-influence.jpg',
   },
+  {
+    id: 'the-kingdom-of-god-the-already-and-the-not-yet',
+    title: 'The Kingdom of God, the Already and the Not Yet',
+    description: 'A teaching on the Kingdom of God as both already present and not yet fully realized.',
+    date: '2026-04-30',
+    dateLabel: 'Recently added',
+    series: 'The Kingdom of God',
+    videoUrl: '/videos/teachings/the-kingdom-of-god-the-already-and-the-not-yet.mp4',
+    type: 'video',
+    thumbnail: '/images/teachings/the-kingdom-of-god-the-already-and-the-not-yet.jpg',
+  },
 ]
