@@ -91,4 +91,14 @@ export const teachings: Teaching[] = [
     type: 'video',
     thumbnail: '/images/teachings/the-kingdom-of-god-the-already-and-the-not-yet.jpg',
   },
+  {
+    id: 'what-did-god-mean-repent-turn-yourselves-ezekiel-18-30',
+    title: 'What Did God Mean When He Said, "Repent, Turn Yourselves," from Ezekiel 18:30',
+    description: 'A teaching from Ezekiel 18:30 on repentance and turning to God.',
+    date: '2026-05-04',
+    dateLabel: 'Recently added',
+    videoUrl: '/videos/teachings/what-did-god-mean-repent-turn-yourselves-ezekiel-18-30.mp4',
+    type: 'video',
+    thumbnail: '/images/teachings/what-did-god-mean-repent-turn-yourselves-ezekiel-18-30.jpg',
+  },
 ]
